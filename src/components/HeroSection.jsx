@@ -40,7 +40,7 @@ const HeroSection = () => {
       <p className=" pt-2 text-center text-xs font-medium ">
         Hi, I&apos;m Danijel, a software engineering graduate.
       </p>
-      <div className="pt-3 flex gap-2 items-center text-xs font-normal">
+      <div className="pt-3 flex gap-2 items-center text-[0.70rem] font-normal">
         <MapPin size={20} weight="fill" />
         <p>Belgrade, Serbia</p>
       </div>

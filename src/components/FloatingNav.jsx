@@ -1,6 +1,5 @@
 import gsap from "gsap";
 import { useEffect } from "react";
-
 import { NavLink } from "react-router";
 
 const FloatingNav = () => {
