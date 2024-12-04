@@ -65,7 +65,7 @@ const AnimatedNav = () => {
 
       <div
         id="text-animation"
-        className="text-black font-bold text-7xl opacity-0 absolute"
+        className="text-black font-bold text-7xl opacity-0 absolute font-inter"
       >
         D.
       </div>
