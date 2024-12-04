@@ -1,12 +1,11 @@
-// import AnimatedNav from "./components/AnimatedNav";
-import HeroSection from "./components/HeroSection";
+import { Routes, Route } from "react-router";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="bg-black h-dvh">
-      {/* <AnimatedNav /> */}
-      <HeroSection />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 };
 
