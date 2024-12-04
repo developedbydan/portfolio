@@ -8,6 +8,12 @@ export default {
         secondary: "#F7FFE1",
         navBg: "#111309",
         navText: "#B1B1B1",
+        gridReact: "#012026",
+        gridMongo: "#0A1809",
+        gridGit: "#100900",
+        gridExpress: "#111111",
+        gridTailwind: "#031C1E",
+        gridFigma: "#180D26",
       },
       fontFamily: {
         alex: ["'Alex Brush'", "cursive"],
