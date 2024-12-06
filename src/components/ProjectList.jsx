@@ -1,5 +1,4 @@
 import { ArrowUpRight } from "@phosphor-icons/react";
-import { Link } from "react-router";
 
 import gsap from "gsap/src";
 import { useEffect } from "react";
@@ -9,19 +8,18 @@ const ProjectList = () => {
     const timeline = gsap.timeline({
       defaults: {
         duration: 1,
-        ease: "sine.inOut",
+        ease: "expo.in",
       },
     });
 
-    timeline
-      .to("#project1", {
+    timeline.to(
+      "#project1",
+      {
         opacity: 1,
         duration: 1,
-      })
-      .to("#project2", {
-        opacity: 1,
-        duration: 1,
-      });
+      },
+      "+=0.5"
+    );
   });
 
   return (
@@ -29,7 +27,12 @@ const ProjectList = () => {
       id="project1"
       className="flex flex-col justify-center w-full text-secondary font-inter pt-52 opacity-0 "
     >
-      <Link className="border-t-2 border-primary py-5 px-6  ">
+      <a
+        href="https://influence-sable.vercel.app/login"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border-t-2 border-primary py-5 px-6  "
+      >
         <div className="flex justify-between ">
           <div className="flex flex-col gap-2">
             <h3 className="text-start text-lg font-bold">Influence</h3>
@@ -46,8 +49,13 @@ const ProjectList = () => {
             <ArrowUpRight size={36} weight="regular" />
           </div>
         </div>
-      </Link>
-      <Link className="border-y-2 border-primary py-5 px-6 ">
+      </a>
+      <a
+        href="https://developedbydan.github.io/travelo/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border-y-2 border-primary py-5 px-6 "
+      >
         <div className="flex justify-between ">
           <div className="flex flex-col gap-2">
             <h3 className="text-start text-lg font-bold">Travelo</h3>
@@ -64,7 +72,7 @@ const ProjectList = () => {
             <ArrowUpRight size={36} weight="regular" />
           </div>
         </div>
-      </Link>
+      </a>
     </section>
   );
 };
