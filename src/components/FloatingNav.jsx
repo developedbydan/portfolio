@@ -30,9 +30,9 @@ const FloatingNav = () => {
   return (
     <header
       id="nav"
-      className="bg-transparent w-full fixed bottom-20 z-10 px-6 opacity-0"
+      className="bg-transparent w-full fixed bottom-20 z-10 px-6 sm:px-8 md:px-20 lg:px-64 opacity-0 xl:flex xl:justify-center"
     >
-      <nav className="flex justify-between bg-navBg/90 backdrop-blur-xl hover:backdrop-blur-none  py-4 px-8 rounded-lg  font-inter text-sm">
+      <nav className="flex justify-between bg-navBg/90 backdrop-blur-xl hover:backdrop-blur-none  py-4 px-8 md:py-6 rounded-lg md:rounded-xl lg:rounded-2xl  font-inter text-sm md:text-base  xl:w-1/2 3xl:w-5/12">
         <NavLink
           to={"/"}
           className={({ isActive }) =>

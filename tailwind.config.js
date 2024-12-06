@@ -19,6 +19,9 @@ export default {
         alex: ["'Alex Brush'", "cursive"],
         inter: ['"Inter"', "sans-serif"],
       },
+      screens: {
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],

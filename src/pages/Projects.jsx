@@ -23,7 +23,7 @@ const Projects = () => {
       <section className="bg-black h-dvh pt-10 overflow-y-auto">
         <h2
           id="projects"
-          className="text-secondary text-3xl font-bold text-center opacity-0"
+          className="text-secondary text-3xl lg:text-4xl font-bold text-center opacity-0"
         >
           Projects
         </h2>
