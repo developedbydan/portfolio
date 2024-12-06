@@ -32,7 +32,7 @@ const FloatingNav = () => {
       id="nav"
       className="bg-transparent w-full fixed bottom-20 z-10 px-6 opacity-0"
     >
-      <nav className="flex justify-between bg-navBg py-4 px-8 rounded-lg  font-inter text-sm">
+      <nav className="flex justify-between bg-navBg/90 backdrop-blur-xl hover:backdrop-blur-none  py-4 px-8 rounded-lg  font-inter text-sm">
         <NavLink
           to={"/"}
           className={({ isActive }) =>
