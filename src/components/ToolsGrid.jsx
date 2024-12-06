@@ -46,7 +46,7 @@ const ToolsGrid = () => {
 
   return (
     <section className="pt-16 pb-48">
-      <div className="grid grid-cols-2 gap-5 text-white font-semibold">
+      <div className="grid grid-cols-2 gap-5 text-white font-medium font-inter">
         <div
           id="react"
           className="bg-gridReact col-span-2 py-6 px-4 flex flex-col items-center gap-3 rounded-xl opacity-0"
