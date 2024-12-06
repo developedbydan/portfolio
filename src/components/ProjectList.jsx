@@ -25,21 +25,25 @@ const ProjectList = () => {
   return (
     <section
       id="project1"
-      className="flex flex-col justify-center w-full text-secondary font-inter pt-52 opacity-0 "
+      className="flex flex-col justify-center w-full text-secondary font-inter pt-52 xl:pt-44 3xl:pt-56 opacity-0 "
     >
       <a
         href="https://influence-sable.vercel.app/login"
         target="_blank"
         rel="noopener noreferrer"
-        className="border-t-2 border-primary py-5 px-6  "
+        className="border-t-2 border-primary py-5 px-6  xl:px-52 3xl:px-96"
       >
         <div className="flex justify-between ">
-          <div className="flex flex-col gap-2">
-            <h3 className="text-start text-lg font-bold">Influence</h3>
-            <div className="flex justify-between gap-5">
-              <p className="text-sm ">Influencer booking app</p>
+          <div className="flex flex-col md:flex-row  md:items-center md:justify-between md:w-full gap-2">
+            <h3 className="text-start text-lg font-bold md:text-2xl lg:text-3xl">
+              Influence
+            </h3>
+            <div className="flex justify-between md:items-center md:w-7/12 gap-5 ">
+              <p className="text-sm md:text-base lg:text-lg">
+                Influencer booking app
+              </p>
               <ArrowUpRight
-                size={24}
+                size={48}
                 weight="bold"
                 className="hidden md:block"
               />
@@ -54,15 +58,19 @@ const ProjectList = () => {
         href="https://developedbydan.github.io/travelo/"
         target="_blank"
         rel="noopener noreferrer"
-        className="border-y-2 border-primary py-5 px-6 "
+        className="border-y-2 border-primary py-5 px-6 xl:px-52 3xl:px-96"
       >
-        <div className="flex justify-between ">
-          <div className="flex flex-col gap-2">
-            <h3 className="text-start text-lg font-bold">Travelo</h3>
-            <div className="flex justify-between gap-5">
-              <p className="text-sm ">Travel website landing page</p>
+        <div className="flex justify-between  ">
+          <div className="flex flex-col gap-2 md:flex-row  md:items-center md:justify-between md:w-full">
+            <h3 className="text-start text-lg font-bold md:text-2xl lg:text-3xl">
+              Travelo
+            </h3>
+            <div className="flex justify-between gap-5 md:items-center md:w-7/12">
+              <p className="text-sm md:text-base lg:text-lg">
+                Travel website landing page
+              </p>
               <ArrowUpRight
-                size={24}
+                size={48}
                 weight="bold"
                 className="hidden md:block"
               />

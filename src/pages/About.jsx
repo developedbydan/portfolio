@@ -24,7 +24,7 @@ const About = () => {
       <section className="bg-black h-dvh pt-10 px-6 overflow-y-auto">
         <h2
           id="toolkit"
-          className="text-secondary text-3xl font-bold text-center opacity-0"
+          className="text-secondary text-3xl lg:text-4xl font-bold text-center opacity-0"
         >
           My toolkit
         </h2>

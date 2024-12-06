@@ -29,23 +29,28 @@ const Contact = () => {
 
   return (
     <Layout>
-      <section className="bg-black h-dvh pt-48 px-6 overflow-y-auto font-inter">
+      <section className="bg-black h-dvh pt-48 lg:pt-44 3xl:pt-48 px-6 overflow-y-auto font-inter sm:px-8 sm:pt-64 md:px-20 lg:px-52 xl:flex xl:justify-center ">
         <div
           id="card"
-          className=" bg-black rounded-xl  px-5 pb-16 flex flex-col items-center"
+          className=" bg-black rounded-xl  px-5 pb-16 flex flex-col items-center  md:px-10 lg:px-14 xl:w-1/2 xl:h-1/2 3xl:w-5/12"
         >
           <div
             id="contact"
-            className=" text-secondary flex justify-center  opacity-0"
+            className=" text-secondary flex justify-center opacity-0"
           >
-            <p className="bg-black px-4 pb-2 rounded-b-xl text-sm">Contact</p>
+            <p className="bg-black px-4 pb-2 rounded-b-xl text-sm md:text-base lg:text-lg">
+              Contact
+            </p>
           </div>
 
-          <h2 id="projects" className="text-black text-3xl font-bold  pt-8">
+          <h2
+            id="projects"
+            className="text-black text-3xl md:text-4xl lg:text-5xl font-bold  pt-8 3xl:pt-14"
+          >
             Get In Touch
           </h2>
 
-          <p className="text-center pt-8 ">
+          <p className="text-center pt-8 3xl:pt-16 md:text-lg">
             Feel free to reach out to me via{" "}
             <a
               href="mailto:guzvicdanijel21@gmail.com"

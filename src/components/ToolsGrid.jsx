@@ -45,46 +45,46 @@ const ToolsGrid = () => {
   });
 
   return (
-    <section className="pt-16 pb-48">
-      <div className="grid grid-cols-2 gap-5 text-white font-medium font-inter">
+    <section className="pt-16 3xl:pt-28 pb-48 sm:px-8 md:px-14 lg:px-48 xl:flex xl:justify-center ">
+      <div className="grid grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 3xl:grid-rows-2 gap-5 text-white font-medium font-inter xl:w-8/12">
         <div
           id="react"
-          className="bg-gridReact col-span-2 py-6 px-4 flex flex-col items-center gap-3 rounded-xl opacity-0"
+          className="bg-gridReact col-span-2 3xl:col-span-1 3xl:row-span-2 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
         >
           <img src={ReactSvg} className="w-16 h-16" />
           <p>React</p>
         </div>
         <div
           id="mongo"
-          className="bg-gridMongo col-span-1 py-6 px-4 flex flex-col items-center gap-3 rounded-xl opacity-0"
+          className="bg-gridMongo col-span-1 3xl:col-span-2 py-6 px-4 flex flex-col items-center gap-3 rounded-xl opacity-0"
         >
           <img src={MongoSvg} className="w-16 h-16" />
           <p>MongoDB</p>
         </div>
         <div
           id="git"
-          className="bg-gridGit col-span-1 row-span-2 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
+          className="bg-gridGit col-span-1 row-span-2 lg:row-span-3 3xl:row-span-5 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
         >
           <img src={GitSvg} className="w-16 h-16" />
           <p>Git</p>
         </div>
         <div
           id="express"
-          className="bg-gridExpress col-span-1 py-6 px-4 flex flex-col items-center gap-3 rounded-xl opacity-0"
+          className="bg-gridExpress col-span-1 lg:col-span-2 3xl:col-span-1 3xl:row-span-4 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
         >
           <img src={ExpressSvg} className="w-16 h-16 " />
           <p>Express</p>
         </div>
         <div
           id="tailwind"
-          className="bg-gridTailwind col-span-1 row-span-2 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
+          className="bg-gridTailwind col-span-1 row-span-2 3xl:row-span-4  py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
         >
           <img src={TailwindSvg} className="w-16 h-16" />
           <p>Tailwind</p>
         </div>
         <div
           id="figma"
-          className="bg-gridFigma col-span-1 row-span-2 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
+          className="bg-gridFigma col-span-1 row-span-2 3xl:row-span-3 py-6 px-4 flex flex-col items-center justify-center gap-3 rounded-xl opacity-0"
         >
           <img src={FigmaSvg} className="w-16 h-16" />
           <p>Figma</p>
