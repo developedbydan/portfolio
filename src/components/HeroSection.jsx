@@ -29,10 +29,10 @@ const HeroSection = () => {
   return (
     <div
       id="hero"
-      className="absolute w-full flex flex-col items-center justify-center bg-transparent  top-72 lg:top-52 xl:top-48 3xl:top-64 text-secondary opacity-0 font-inter"
+      className="absolute w-full h-[var(--app-height)] flex flex-col items-center justify-center bg-transparent  top-0  text-secondary opacity-0 font-inter"
     >
-      <h1 className="text-center text-5xl sm:text-6xl md:text-7xl 3xl:text-8xl font-bold ">
-        <span className="font-alex text-[4.4rem] sm:text-[5.3rem] md:text-[6.3rem] 3xl:text-[8.3rem]  text-primary font-normal">
+      <h1 className="text-center text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl 3xl:text-8xl font-bold ">
+        <span className="font-alex text-[4.4rem] sm:text-[5.3rem] md:text-[6.3rem] 2xl:text-[8.3rem] 3xl:text-[8.3rem]  text-primary font-normal">
           full
         </span>{" "}
         STACK <br /> DEVELOPER.

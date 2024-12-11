@@ -20,7 +20,7 @@ const Projects = () => {
 
   return (
     <Layout>
-      <section className="bg-black h-dvh pt-10 overflow-y-auto">
+      <section className="bg-black h-[var(--app-height)] pt-10 overflow-y-auto">
         <h2
           id="projects"
           className="text-secondary text-3xl lg:text-4xl font-bold text-center opacity-0"
