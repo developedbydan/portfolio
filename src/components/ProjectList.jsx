@@ -28,7 +28,7 @@ const ProjectList = () => {
       className="flex flex-col justify-center w-full text-secondary font-inter pt-52 xl:pt-44 3xl:pt-56 opacity-0 "
     >
       <a
-        href="https://influence-sable.vercel.app/login"
+        href="https://github.com/developedbydan/influence"
         target="_blank"
         rel="noopener noreferrer"
         className="border-t-2 border-primary py-5 px-6  xl:px-52 3xl:px-96"
