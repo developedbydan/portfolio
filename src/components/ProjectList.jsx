@@ -55,7 +55,7 @@ const ProjectList = () => {
         </div>
       </a>
       <a
-        href="https://saas-landing-1b89ag1fh-developedbydans-projects.vercel.app/"
+        href="https://saas-landing-zeta-eight.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         className="border-y-2 border-primary py-5 px-6 xl:px-52 3xl:px-96"
